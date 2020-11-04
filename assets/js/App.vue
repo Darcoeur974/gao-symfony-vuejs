@@ -5,16 +5,14 @@
 </template>
 
 <script>
-    import Hello from './components/Hello'
+import Hello from './components/Hello.vue'
 
-    class TestClassSyntax {
+class TestClassSyntax {}
 
-}
-
-    export default {
-    name: 'app',
-    components: {
+export default {
+  name: 'app',
+  components: {
     Hello
-}
+  }
 }
 </script>
